@@ -1,6 +1,7 @@
 .wrapper {
   margin: 0px auto;
   max-width: 1024px;
+  padding:5px;
 }
 
 nav ul li{
@@ -54,4 +55,17 @@ nav{
   content: "";
   display: table;
   clear: both;
+}
+
+.print {
+  float: right;
+  display: inline;
+  margin-top: 20px;
+}
+.print img {
+  display: inline;
+}
+.print p {
+  display: inline;
+  font-family: 'Ubuntu Mono', monospace;
 }
