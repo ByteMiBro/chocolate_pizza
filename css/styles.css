@@ -16,21 +16,21 @@ nav{
   float: right;
 }
 
-.logo, .logo-text {
+.logo, .header-text {
   float: left;
   display: inline;
   line-height: 25px;
 }
 
-.logo-text p, .logo-text h1{
+.header-text p, .header-text h1{
   margin: 0px 0px 0px 5px;
 }
 
-.logo-text h1{
+.header-text h1{
   font-family: 'Yellowtail';
 }
 
-.logo-text p{
+.header-text p{
   font-family: 'Ubuntu Mono', monospace;
   word-spacing: .01px;
 }
@@ -38,6 +38,17 @@ nav{
 .page-header{
   padding-bottom: 20px;
   border-bottom: dotted 5px;
+  margin-bottom: 25px;
+}
+.post-header .header-text{
+  float: left;
+  display: inline;
+  line-height: 25px;
+}
+.post-header h1, .post-header p{
+  margin: 0px 0px 0px 0px;
+  font-family: 'Ubuntu Mono', monospace;
+  word-spacing: .01px;
 }
 .clearfix {
   content: "";
