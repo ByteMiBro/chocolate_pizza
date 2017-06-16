@@ -1,6 +1,6 @@
 .wrapper {
   margin: 0px auto;
-  max-width: 1024px;
+  max-width: 960px;
   padding:5px;
 }
 
@@ -73,14 +73,23 @@ nav{
   font-family: 'Ubuntu Mono', monospace;
 }
 .post-body {
+  padding-bottom: 20px;
+  border-bottom: dotted 5px;
+  margin-bottom: 25px;
 }
 .post-body img {
   width: 100%;
 }
+.post-body p {
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-indent: 25px;
+}
 .recipe{
-  background: url("images/list-bg.png");
+  background: url("../images/list-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-bottom: 25px;
 }
 .recipe p {
   display: inline;
@@ -88,4 +97,54 @@ nav{
 .recipe ul {
   display: inline;
   float: left;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  list-style: none;
+  margin-right: 100px;
+  margin-left: 15px;
+}
+.post-footer button{
+  float: right;
+  background-color: #BC7058;
+  font-family: 'Ubuntu Mono', monospace;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+}
+.post-footer .header-text h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  margin-bottom: 10px;
+}
+hr {
+  background: url("../images/small-logo.png") no-repeat top center;
+  background-size: contain;
+  display: block;
+  height: 18px;
+  border: none;
+  margin-top: 100px;
+  position: relative;
+}
+hr:before, hr:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #d7d7d7;
+  height: 2px;
+  top: 8px;
+}
+hr:before {
+  left: 0;
+  right: 50%;
+  margin-right: 10px;
+}
+hr:after {
+  right: 0;
+  left: 50%;
+  margin-left: 10px;
+}
+footer {
+  text-align: center;
+  color: #A0A0A0;
 }
