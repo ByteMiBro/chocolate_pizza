@@ -2,3 +2,45 @@
   margin: 0px auto;
   max-width: 1024px;
 }
+
+nav ul li{
+  display: inline;
+  margin: 1px;
+}
+
+nav ul{
+  padding: 0px;
+}
+nav{
+  margin-left: 15px;
+  float: right;
+}
+
+.logo, .logo-text {
+  float: left;
+  display: inline;
+  line-height: 25px;
+}
+
+.logo-text p, .logo-text h1{
+  margin: 0px 0px 0px 5px;
+}
+
+.logo-text h1{
+  font-family: 'Yellowtail';
+}
+
+.logo-text p{
+  font-family: 'Ubuntu Mono', monospace;
+  word-spacing: .01px;
+}
+
+.page-header{
+  padding-bottom: 20px;
+  border-bottom: dotted 5px;
+}
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
