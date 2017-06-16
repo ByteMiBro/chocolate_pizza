@@ -51,6 +51,9 @@ nav{
   font-family: 'Ubuntu Mono', monospace;
   word-spacing: .01px;
 }
+.post-header {
+  margin-bottom: 20px;
+}
 .clearfix {
   content: "";
   display: table;
@@ -68,4 +71,21 @@ nav{
 .print p {
   display: inline;
   font-family: 'Ubuntu Mono', monospace;
+}
+.post-body {
+}
+.post-body img {
+  width: 100%;
+}
+.recipe{
+  background: url("images/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.recipe p {
+  display: inline;
+}
+.recipe ul {
+  display: inline;
+  float: left;
 }
